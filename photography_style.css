@@ -1,0 +1,58 @@
+
+
+body{
+font-family:'Courier New', Courier, monospace;
+margin: 0;
+padding: 0%;
+}
+
+
+header{
+text-align: center;
+background-color: rgb(238, 194, 236);
+}
+
+table{
+    margin: 0 auto;
+    text-align: center;
+}
+
+th{
+color: whitesmoke;
+letter-spacing: .25em;
+padding-top: 2em;
+}
+
+td{
+    text-align: center;
+}
+
+.bg-container{
+background-size: cover;
+background-position: center;
+max-width: 100%;
+min-height: 500px;
+padding: 0%;
+}
+
+.image{
+display: block;
+max-width: 500px;
+margin: 0 auto;
+padding-top: 1em;
+padding-bottom: 4em;
+padding-left: 6em;
+padding-right: 6em;
+border-radius: 20%;
+}
+
+.gallery_image {
+max-width: 500px;
+
+}
+
+
+a:hover{
+ opacity: .85;
+}
+
