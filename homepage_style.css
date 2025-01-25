@@ -17,7 +17,7 @@ body {
     border: .25rem solid black;
 }
 
-
+ 
 .title {
     position: absolute;
     top: 70%;
@@ -28,24 +28,41 @@ body {
     color:white;
 }
 
+.title_2 {
+    position: absolute;
+    top: 1800px;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    font-size: 90px;
+    letter-spacing: .25rem;
+    color:white;
+}
+
 .portrait_title{
     position: absolute;
-    left:9%;
-    top:800px;
-    font-size: 70px;
+    left:12%;
+    top:850px;
+    font-size: 50px;
     letter-spacing: .25rem;  
     color:white;
 }
 
+.aritechture_title{
+    position: absolute;
+    left: 55%;
+    top: 850px;
+    font-size: 50px;
+    letter-spacing: .25rem;
+    color:white;
+}
 
 
-.border_div {
+.landscape_container {
     padding: 2rem;
     text-align: center;
 }
 
-.border_div_portrait {
-    align-items: center;
+.portrait_container {
     display: flex;
     justify-content: space-evenly;
 }
